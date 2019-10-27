@@ -1,0 +1,40 @@
+.team__content-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team__content-items {
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+  text-align: center;
+  width: 30%;
+}
+
+.team__headline-title {
+  width: 180px;
+  height: 36px;
+  color: #221f1f;
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 38px;
+  margin-bottom: 49px;
+  margin-top: 28px;
+}
+
+.team__date {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.team__content-title {
+  font-size: 14px;
+  color: #4b73b5;
+  font-weight: 700;
+}
+.team__desc-text {
+  font-size: 14px;
+  font-weight: 300;
+}

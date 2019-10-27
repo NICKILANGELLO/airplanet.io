@@ -1,0 +1,24 @@
+.breadcrumbs__list,
+.breadcrumbs__item,
+.breadcrumbs__link,
+.breadcrumbs__separator {
+  display: flex;
+  vertical-align: middle;
+}
+
+.breadcrumbs__item:after {
+  content: "/";
+  vertical-align: middle;
+}
+
+.breadcrumbs__link {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.breadcrumbs__item--active:after {
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  text-decoration: none;
+}

@@ -1,0 +1,70 @@
+.rates {
+  text-align: center;
+  padding-bottom: 50px;
+  border: 1px solid #e8e9ed;
+}
+.features__icon-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rates__items {
+  text-align: center;
+  width: 250px;
+  margin-bottom: 25px;
+}
+.rates__title-title {
+  width: 73px;
+  height: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2.88px;
+  text-align: center;
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+
+.rates__desc-item:before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  background-color: black;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.rates__headline {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  padding-top: 16px;
+  padding-bottom: 27px;
+
+}
+
+.rates__desc {
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.rates__desc-list,
+.rates__desc-text {
+  text-align: left;
+  padding-left: 25px;
+}
+.rates__cost {
+  display: flex;
+  justify-content: center;
+}
+.dollar {
+}
+.cost {
+  font-size: 50px;
+}

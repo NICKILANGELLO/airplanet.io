@@ -1,0 +1,18 @@
+.intro {
+  width: 1100px;
+  height: 700px;
+  background: url('./img/animation/wing.png') no-repeat;
+}
+
+.logo {
+  text-align: center;
+  vertical-align: center;
+  
+}
+
+.logo:hover {
+  transform: translateY(300px);
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation: 2s;
+}

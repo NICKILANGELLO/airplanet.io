@@ -1,0 +1,18 @@
+.socials {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.socials__network {
+  display: flex;
+  justify-content: center;
+
+}
+.socials__network-item {
+  display: flex;
+  margin-right: 8px;
+  padding-top: 15px;
+  
+}

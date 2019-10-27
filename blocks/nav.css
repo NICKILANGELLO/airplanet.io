@@ -1,0 +1,55 @@
+.nav__link:before {
+  content: "";
+  vertical-align: middle;
+  width: 24px;
+  height: 18px;
+  margin: 19px;
+  background: center center / contain no-repeat;
+}
+
+.nav__link {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.4px;
+  color: #4b73b5;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+.nav__list {
+  display: flex;
+}
+.nav__link:hover {
+  color: black;
+}
+
+.nav__item--active {
+  color: black;
+}
+.nav__link--icon--main:before {
+  background-image: url('./img/img/icons/main.png');
+}
+
+.nav__link--icon--feed:before {
+  background-image: url('./img/img/icons/feed.png');
+}
+
+.nav__link--icon--team:before {
+  background-image: url('./img/img/icons/team.png');
+}
+
+.nav__link--icon--main:hover:before {
+  background-image: url('./img/img/icons/main-hover.png');
+}
+
+.nav__link--icon--feed:hover:before {
+  background-image: url('../img/img/icons/feed-hover.png');
+}
+
+.nav__link--icon--team:hover:before {
+  background-image: url('../img/img/icons/team-hover.png');
+}
+
+.nav__item--active .nav__link--icon--main:before {
+  background-image: url('../img/img/icons/main-hover.png');
+}

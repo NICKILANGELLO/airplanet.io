@@ -1,0 +1,41 @@
+.sprite {
+  background-image: url(sprite.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-feed {
+  width: 20px;
+  height: 18px;
+  background-position: -5px -5px;
+}
+
+.sprite-feed-hover {
+  width: 20px;
+  height: 18px;
+  background-position: -35px -5px;
+}
+
+.sprite-main {
+  width: 17px;
+  height: 18px;
+  background-position: -5px -33px;
+}
+
+.sprite-main-hover {
+  width: 17px;
+  height: 18px;
+  background-position: -32px -33px;
+}
+
+.sprite-team {
+  width: 23px;
+  height: 18px;
+  background-position: -65px -5px;
+}
+
+.sprite-team-hover {
+  width: 23px;
+  height: 18px;
+  background-position: -59px -33px;
+}
